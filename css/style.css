@@ -510,13 +510,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
 }
 
-/* Section with background
---------------------------------*/
-.section-bg {
-  background: #f7f7f7;
-}
-
-
 
 /* About Us Section
 --------------------------------*/
@@ -533,7 +526,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.80);
+  background: #fcf6e8;
   z-index: 9;
 }
 
@@ -626,12 +619,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  top: 20vh;
+  top: 12vh;
   position: relative;
   z-index: 10;
 }
-
-
 
 #education .eduText h3 {
   font-size: 32px;
@@ -664,6 +655,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 20px);
 }
 
+#education .about-img {
+  display: inline-flex;
+  margin-left: auto;
+  padding-left: 0px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#education .kauffman img {
+  border-radius: 10px 10px 10px 10px;
+}
 
 /* Resume Section
 --------------------------------*/
@@ -746,7 +747,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #work {
   height: 80vh;
-  background: #666666;
+  background: #fcf6e8;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -822,6 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   padding: 60px 0;
   height: 55vh;
+  background: #fcf6e8;
 }
 
 #contact .contact-info {
